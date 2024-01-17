@@ -10,24 +10,24 @@ a {
   text-decoration: none;
   font-weight: bold;
   color: white;
+  background-color: black;
 }
 
 .HOME {
   display: block;
   position: absolute;
   float: right;
-  top: 5vh;
-  right: 15vw;
-  background-color: black;
+  margin-top: 5vh;
+  margin-left: 80vw;
+ 
 }
 
 .WORK {
   display: block;
   position: absolute;
   float: right;
-  top: 5vh;
-  right: 10vw;
-  background-color: black;
+  margin-top: 5vh;
+  margin-left: 90vw;
 }
 
 .foto {
@@ -36,8 +36,8 @@ a {
   width: 40%;
   height: auto;
   float: left;
-  top: 25vh;
-  left: 30vw;
+  margin-top: 25vh;
+  margin-left: 30vw;
   filter: saturate(0);
 }
 
@@ -48,15 +48,15 @@ a {
   width: 20vw;
   height: 40vh;
   float: right;
-  top: 30vh;
-  right: 32vw;
-
+  margin-top: 30vh;
+  margin-left: 48vw;
+  color: black;
 }
 
 .redes {
   display: block;
   position: relative;
-filter: invert(1);
+  filter: invert(1);
   z-index: 1;
 }
 
@@ -66,8 +66,8 @@ filter: invert(1);
   float: left;
   width: 5%;
   height: auto;
-  left: 47vw;
-  top: 55vh;
+  margin-left: 47vw;
+  margin-top: 65vh;
 }
 
 .insta {
@@ -76,8 +76,8 @@ filter: invert(1);
   float: right;
   width: 4%;
   height: auto;
-  top: 56vh;
-  right: 40vw;
+  margin-top: 66vh;
+  margin-left: 55vw;
 }
 
 .linkedin {
@@ -86,8 +86,8 @@ filter: invert(1);
   float: right;
   width: 5%;
   height: auto;
-  right: 32vw;
-  top: 55vh;
+  margin-left: 62vw;
+  margin-top: 65vh;
 }
 
 .name {
@@ -98,95 +98,4 @@ filter: invert(1);
   -webkit-user-select: none;
   user-select: none;
   mix-blend-mode: difference;
-}
-
-@media screen and (max-width: 780px) {
-
-  html {
-    width: 100%;
-    background-color: black;
-    color: white;
-    font-family: "Roboto flex", sans-serif;
-  }
-
-  a {
-    text-decoration: none;
-    font-weight: bold;
-    color: white;
-  }
-
-  .HOME {
-    right: 25vw;
-    background-color: black;
-  }
-
-  .WORK {
-    right: 5vw;
-    background-color: black;
-  }
-
-  .foto {
-    display: block;
-    position: absolute;
-    width: 60%;
-    height: auto;
-    float: left;
-    top: 15vh;
-    left: 20vw;
-    filter: saturate(0);
-  }
-
-  .texto {
-    display: block;
-    position: absolute;
-    font-weight: bold;
-    width: 65vw;
-    height: auto;
-    left: 20vw;
-    top: 40vh;
-    background-color: black;
-  }
-
-  .redes {
-    display: block;
-    position: relative;
-    filter: invert(1);
-    z-index: 1;
-    width: 100%;
-    height: auto;
-  }
-
-  .pinterest {
-    width: 20%;
-    height: auto;
-    left: 10vw;
-    top: 80vh;
-    background-color: white;
-  }
-  
-  .insta {
-    width: 19%;
-    height: auto;
-    top: 80vh;
-    right: 40vw;
-    background-color: white;
-  }
-  
-  .linkedin {
-    width: 20%;
-    height: auto;
-    right: 10vw;
-    top: 80vh;
-    background-color: white;
-  }
-
-  .name {
-    position: absolute;
-    font-size: 10vw;
-    cursor: default;
-    z-index: -1;
-    -webkit-user-select: none;
-    user-select: none;
-    mix-blend-mode: difference;
-  }
 }
