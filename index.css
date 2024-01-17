@@ -23,16 +23,16 @@
   .ABOUT {
     display: block;
     position: fixed;
-    top: 5vh;
-    right: 15vw;
+    margin-top: 5vh;
+    margin-left: 80vw;
     background-color: black;
   }
 
   .WORK {
     display: block;
     position: fixed;
-    top: 5vh;
-    right: 10vw;
+    margin-top: 5vh;
+    margin-left: 90vw;
     background-color: black;
   }
 
