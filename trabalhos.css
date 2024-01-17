@@ -1,0 +1,137 @@
+    html {
+        width: 100%;
+        background-color: black;
+        color: white;
+        font-family: "Roboto flex", sans-serif;
+    }
+
+    html::-webkit-scrollbar {
+        display: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+
+    .HOME {
+        display: block;
+        position: absolute;
+        float: right;
+        top: 5vh;
+        right: 16vw;
+        background-color: black;
+    }
+
+    .ABOUT {
+        display: block;
+        position: absolute;
+        float: right;
+        top: 5vh;
+        right: 10vw;
+        background-color: black;
+    }
+
+    .work {
+        position: absolute;
+        font-size: 10vw;
+        -webkit-user-select: none;
+        user-select: none;
+        mix-blend-mode: difference;
+        z-index: -1;
+        cursor: grab;
+    }
+
+    img {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        width: 35%;
+        height: auto;
+        filter: saturate(0);
+    }
+
+    .img1 {
+        top: 25vh;
+        left: 30vw;
+    }
+
+    .img2 {
+        top: 70vh;
+        left: 30vw;
+    }
+
+    .img3 {
+        top: 115vh;
+        left: 30vw;
+    }
+
+    @media screen and (max-width: 780px) {
+
+        html {
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            background-color: black;
+            color: white;
+            font-family: "Roboto flex", sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .HOME {
+            display: block;
+            position: absolute;
+            float: right;
+            top: 5vh;
+            right: 25vw;
+            background-color: black;
+        }
+
+        .ABOUT {
+            display: block;
+            position: absolute;
+            float: right;
+            top: 5vh;
+            right: 5vw;
+            background-color: black;
+        }
+
+        .work {
+            position: absolute;
+            font-size: 10vw;
+            -webkit-user-select: none;
+            user-select: none;
+            mix-blend-mode: difference;
+            z-index: -1;
+        }
+
+        img {
+            display: block;
+            position: absolute;
+            z-index: 1;
+            width: 65%;
+            height: auto;
+            filter: saturate(0);
+        }
+
+        .img1 {
+            top: 15vh;
+            left: 17vw;
+        }
+
+        .img2 {
+            top: 40vh;
+            left: 17vw;
+        }
+
+        .img3 {
+            top: 65vh;
+            left: 17vw;
+        }
+    }

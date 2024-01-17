@@ -1,0 +1,192 @@
+html {
+  width: 100%;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  font-family: "Roboto flex", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.HOME {
+  display: block;
+  position: absolute;
+  float: right;
+  top: 5vh;
+  right: 15vw;
+  background-color: black;
+}
+
+.WORK {
+  display: block;
+  position: absolute;
+  float: right;
+  top: 5vh;
+  right: 10vw;
+  background-color: black;
+}
+
+.foto {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: auto;
+  float: left;
+  top: 25vh;
+  left: 30vw;
+  filter: saturate(0);
+}
+
+.texto {
+  display: block;
+  position: absolute;
+  font-weight: bold;
+  width: 20vw;
+  height: 40vh;
+  float: right;
+  top: 30vh;
+  right: 32vw;
+
+}
+
+.redes {
+  display: block;
+  position: relative;
+filter: invert(1);
+  z-index: 1;
+}
+
+.pinterest {
+  display: block;
+  position: absolute;
+  float: left;
+  width: 5%;
+  height: auto;
+  left: 47vw;
+  top: 55vh;
+}
+
+.insta {
+  display: block;
+  position: absolute;
+  float: right;
+  width: 4%;
+  height: auto;
+  top: 56vh;
+  right: 40vw;
+}
+
+.linkedin {
+  display: block;
+  position: absolute;
+  float: right;
+  width: 5%;
+  height: auto;
+  right: 32vw;
+  top: 55vh;
+}
+
+.name {
+  position: absolute;
+  font-size: 10vw;
+  cursor: grab;
+  z-index: -1;
+  -webkit-user-select: none;
+  user-select: none;
+  mix-blend-mode: difference;
+}
+
+@media screen and (max-width: 780px) {
+
+  html {
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: "Roboto flex", sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+  }
+
+  .HOME {
+    right: 25vw;
+    background-color: black;
+  }
+
+  .WORK {
+    right: 5vw;
+    background-color: black;
+  }
+
+  .foto {
+    display: block;
+    position: absolute;
+    width: 60%;
+    height: auto;
+    float: left;
+    top: 15vh;
+    left: 20vw;
+    filter: saturate(0);
+  }
+
+  .texto {
+    display: block;
+    position: absolute;
+    font-weight: bold;
+    width: 65vw;
+    height: auto;
+    left: 20vw;
+    top: 40vh;
+    background-color: black;
+  }
+
+  .redes {
+    display: block;
+    position: relative;
+    filter: invert(1);
+    z-index: 1;
+    width: 100%;
+    height: auto;
+  }
+
+  .pinterest {
+    width: 20%;
+    height: auto;
+    left: 10vw;
+    top: 80vh;
+    background-color: white;
+  }
+  
+  .insta {
+    width: 19%;
+    height: auto;
+    top: 80vh;
+    right: 40vw;
+    background-color: white;
+  }
+  
+  .linkedin {
+    width: 20%;
+    height: auto;
+    right: 10vw;
+    top: 80vh;
+    background-color: white;
+  }
+
+  .name {
+    position: absolute;
+    font-size: 10vw;
+    cursor: default;
+    z-index: -1;
+    -webkit-user-select: none;
+    user-select: none;
+    mix-blend-mode: difference;
+  }
+}
