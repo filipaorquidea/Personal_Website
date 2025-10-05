@@ -1,44 +1,57 @@
-const numDivs = 30;
+const numDivs = 5;
 
-  for (let i = 0; i < numDivs; i++) {
-    createDraggableDiv();
-  }
+for (let i = 0; i < numDivs; i++) {
+  createDraggableDiv();
+}
 
-  function createDraggableDiv() {
-    const draggable = document.createElement('div');
-    draggable.classList.add('draggable');
-    draggable.appendChild(document.createTextNode('FILIPA ORQUÍDEA'));
-    
-    const randomX = Math.random() * (window.innerWidth-200);
-    const randomY = Math.random() * (window.innerHeight+400);
+// Criar um div especial que segue o cursor
+const followerDiv = document.createElement('div');
+followerDiv.classList.add('draggable');
+followerDiv.style.pointerEvents = 'none'; // Para não interferir com cliques
+followerDiv.appendChild(document.createTextNode('FILIPA ORQUIDEA'));
+document.body.appendChild(followerDiv);
 
-    draggable.style.left = `${randomX}px`;
-    draggable.style.top = `${randomY}px`;
+// Seguir o movimento do rato
+document.addEventListener('mousemove', (e) => {
+  followerDiv.style.left = `${e.clientX - 100}px`; // -100 para centrar aproximadamente
+  followerDiv.style.top = `${e.clientY - 25}px`;   // -25 para centrar verticalmente
+});
 
-    let isDragging = false;
-    let offsetX, offsetY;
+function createDraggableDiv() {
+  const draggable = document.createElement('div');
+  draggable.classList.add('draggable');
+  draggable.appendChild(document.createTextNode('FILIPA ORQUIDEA'));
+  
+  const randomX = Math.random() * (window.innerWidth-200);
+  const randomY = Math.random() * (window.innerHeight+400);
 
-    draggable.addEventListener('mousedown', (e) => {
-      isDragging = true;
-      offsetX = e.clientX - draggable.getBoundingClientRect().left;
-      offsetY = e.clientY - draggable.getBoundingClientRect().top;
-      draggable.style.cursor = 'grabbing';
-    });
+  draggable.style.left = `${randomX}px`;
+  draggable.style.top = `${randomY}px`;
 
-    document.addEventListener('mousemove', (e) => {
-      if (isDragging) {
-        const x = e.clientX - offsetX;
-        const y = e.clientY - offsetY;
+  let isDragging = false;
+  let offsetX, offsetY;
 
-        draggable.style.left = `${x}px`;
-        draggable.style.top = `${y}px`;
-      }
-    });
+  draggable.addEventListener('mousedown', (e) => {
+    isDragging = true;
+    offsetX = e.clientX - draggable.getBoundingClientRect().left;
+    offsetY = e.clientY - draggable.getBoundingClientRect().top;
+    draggable.style.cursor = 'grabbing';
+  });
 
-    document.addEventListener('mouseup', () => {
-      isDragging = false;
-      draggable.style.cursor = 'grab';
-    });
+  document.addEventListener('mousemove', (e) => {
+    if (isDragging) {
+      const x = e.clientX - offsetX;
+      const y = e.clientY - offsetY;
 
-    document.body.appendChild(draggable);
-  }
+      draggable.style.left = `${x}px`;
+      draggable.style.top = `${y}px`;
+    }
+  });
+
+  document.addEventListener('mouseup', () => {
+    isDragging = false;
+    draggable.style.cursor = 'grab';
+  });
+
+  document.body.appendChild(draggable);
+}

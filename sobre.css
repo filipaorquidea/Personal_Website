@@ -1,3 +1,8 @@
+  @font-face {
+    font-family: 'Personalized';
+    src: url('data/Vector_O.otf') format('opentype');
+  }
+
 html {
   width: 100%;
   overflow: hidden;
@@ -19,7 +24,7 @@ a {
   float: right;
   margin-top: 5vh;
   margin-left: 80vw;
- 
+
 }
 
 .WORK {
@@ -98,4 +103,5 @@ a {
   -webkit-user-select: none;
   user-select: none;
   mix-blend-mode: difference;
+  font-family: 'Personalized', sans-serif;
 }

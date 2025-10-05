@@ -1,11 +1,19 @@
+  @font-face {
+    font-family: 'Personalized';
+    src: url('data/Vector_O.otf') format('opentype');
+  }
+
+  html {
+    overflow-x: hidden !important;
+  }
+
   body {
     width: 100%;
     height: auto;
-    overflow: hidden;
     background-color: black;
     color: white;
-    font-family: "Roboto flex", sans-serif;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
   }
 
   header {
@@ -20,11 +28,24 @@
     z-index: 100;
   }
 
+  img {
+    display: block;
+    position: relative;
+    top: 30vh;
+    left: 25vw;
+    border-radius: 10%;
+    border: 2px solid white;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    cursor: none;
+    user-select: none;
+  }
+
   .ABOUT {
     display: block;
     position: fixed;
+    float: left;
     margin-top: 5vh;
-    margin-left: 80vw;
+    left: 10vw;
     background-color: black;
   }
 
@@ -32,7 +53,16 @@
     display: block;
     position: fixed;
     margin-top: 5vh;
-    margin-left: 90vw;
+    left: 5vw;
+    background-color: black;
+  }
+
+  .CONTACT {
+    display: block;
+    position: fixed;
+    float: left;
+    margin-top: 5vh;
+    left: 15vw;
     background-color: black;
   }
 
@@ -44,4 +74,5 @@
     user-select: none;
     mix-blend-mode: difference;
     z-index: -100;
+    font-family: 'Personalized', sans-serif;
   }
