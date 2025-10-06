@@ -21,7 +21,7 @@
          padding: 40px 20px;
      }
 
-          a {
+     a {
          text-decoration: none;
          font-weight: bold;
          color: white;
@@ -32,17 +32,26 @@
          display: block;
          position: fixed;
          float: left;
-         margin-top: 5vh;
-         margin-left: 80vw;
+         top: 5vh;
+         left: 5vw;
          background-color: black;
      }
 
      .ABOUT {
          display: block;
          position: fixed;
-         float: right;
-         margin-top: 5vh;
-         margin-left: 90vw;
+         float: left;
+         top: 5vh;
+         left: 10vw;
+         background-color: black;
+     }
+
+     .CONTACT {
+         display: block;
+         position: fixed;
+         float: left;
+         top: 5vh;
+         left: 15vw;
          background-color: black;
      }
 
@@ -59,7 +68,7 @@
      }
 
      .container {
-        position: relative;
+         position: relative;
          max-width: 1200px;
          margin: 0 auto;
          top: 10vh;
@@ -245,4 +254,3 @@
          font-size: 0.9em;
          color: #666;
      }
-

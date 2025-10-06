@@ -3,105 +3,110 @@
     src: url('data/Vector_O.otf') format('opentype');
   }
 
-html {
-  width: 100%;
-  overflow: hidden;
-  background-color: black;
-  color: white;
-  font-family: "Roboto flex", sans-serif;
-}
+  html {
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    font-family: "Roboto flex", sans-serif;
+  }
 
-a {
-  text-decoration: none;
-  font-weight: bold;
-  color: white;
-  background-color: black;
-}
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+  }
 
-.HOME {
-  display: block;
-  position: absolute;
-  float: right;
-  margin-top: 5vh;
-  margin-left: 80vw;
+  .HOME {
+    display: block;
+    position: absolute;
+    float: left;
+    top: 5vh;
+    left: 5vw;
 
-}
+  }
 
-.WORK {
-  display: block;
-  position: absolute;
-  float: right;
-  margin-top: 5vh;
-  margin-left: 90vw;
-}
+  .WORK {
+    display: block;
+    position: absolute;
+    float: right;
+    top: 5vh;
+    left: 10vw;
+  }
 
-.foto {
-  display: block;
-  position: absolute;
-  width: 40%;
-  height: auto;
-  float: left;
-  margin-top: 25vh;
-  margin-left: 30vw;
-  filter: saturate(0);
-}
+  .foto {
+    display: block;
+    position: absolute;
+    width: 40%;
+    height: auto;
+    float: left;
+    top: 20vh;
+    left: 15vw;
+    filter: saturate(0);
+  }
 
-.texto {
-  display: block;
-  position: absolute;
-  font-weight: bold;
-  width: 20vw;
-  height: 40vh;
-  float: right;
-  margin-top: 30vh;
-  margin-left: 48vw;
-  color: black;
-}
+  .texto {
+    display: block;
+    position: absolute;
+    font-weight: bold;
+    width: 20vw;
+    height: 40vh;
+    float: right;
+    top: 20vh;
+    left: 60vw;
+    color: black;
+    padding: 2%;
+    background-color: gray;
+  }
 
-.redes {
-  display: block;
-  position: relative;
-  filter: invert(1);
-  z-index: 1;
-}
+  .redes {
+    display: block;
+    position: relative;
+    filter: invert(1);
+    z-index: 1;
+  }
 
-.pinterest {
-  display: block;
-  position: absolute;
-  float: left;
-  width: 5%;
-  height: auto;
-  margin-left: 47vw;
-  margin-top: 65vh;
-}
+  .pinterest {
+    display: block;
+    position: absolute;
+    float: left;
+    width: 5%;
+    height: auto;
+    margin-left: 40vw;
+    margin-top: 70vh;
+    background-color: white;
+  }
 
-.insta {
-  display: block;
-  position: absolute;
-  float: right;
-  width: 4%;
-  height: auto;
-  margin-top: 66vh;
-  margin-left: 55vw;
-}
+  .insta {
+    display: block;
+    position: absolute;
+    float: right;
+    width: 4%;
+    height: auto;
+    margin-top: 71vh;
+    margin-left: 48vw;
+    background-color: white;
+  }
 
-.linkedin {
-  display: block;
-  position: absolute;
-  float: right;
-  width: 5%;
-  height: auto;
-  margin-left: 62vw;
-  margin-top: 65vh;
-}
+  .linkedin {
+    display: block;
+    position: absolute;
+    float: right;
+    width: 5%;
+    height: auto;
+    margin-left: 55vw;
+    margin-top: 70vh;
+    background-color: white;
+  }
 
-.name {
-  position: absolute;
-  font-size: 10vw;
-  cursor: grab;
-  z-index: -1;
-  -webkit-user-select: none;
-  user-select: none;
-  mix-blend-mode: difference;
-  font-family: 'Personalized', sans-serif;
-}
+  .name {
+    position: absolute;
+    font-size: 10vw;
+    cursor: grab;
+    z-index: -1;
+    -webkit-user-select: none;
+    user-select: none;
+    mix-blend-mode: difference;
+    font-family: 'Personalized', sans-serif;
+  }

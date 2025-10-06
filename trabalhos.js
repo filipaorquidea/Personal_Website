@@ -71,9 +71,9 @@ const projects = {
     ]
   },
   project3: {
-    title: "Packaging Design",
-    date: "2024",
-    client: "Organic Foods",
+    title: "Web Design",
+    date: "2021",
+    client: "",
     description: "Criação de embalagens para linha de produtos orgânicos. O design privilegiou a sustentabilidade visual e física, com ilustrações botânicas originais e informações claras sobre os produtos. Sistema flexível aplicável a toda a linha de produtos.",
     tags: ["Packaging", "Ilustração", "Sustentabilidade", "Produto"],
     images: [
