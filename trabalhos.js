@@ -55,7 +55,9 @@ const projects = {
     title: "Sistema Interativo + Identidade Visual",
     date: "2025",
     client: "Dissertação de Mestrado",
-    description: [""],
+    description: ["Do Som à Forma - Um sistema interdisciplinar para a Criação Tipográfica através da Análise de Som, é um projeto que explora a interseção entre som, tecnologia e design tipográfico. O sistema desenvolvido apresenta formas tipográficas dinâmicas e interativas, baseadas em dados sonoros.",
+      "O projeto utiliza sensores para capturar dados de som e movimento, que são então processados para gerar formas tipográficas únicas. Através de uma interface interativa, os users podem manipular esses dados em tempo real, criando uma experiência imersiva que combina arte, tecnologia e design.",
+      "A identidade visual do festival de música reflete essa interdisciplinaridade, incorporando elementos gráficos que evocam tanto a fluidez do som quanto a estrutura das formas tipográficas. O resultado é um sistema inovador que desafia as convenções tradicionais do design tipográfico, oferecendo novas possibilidades para a expressão criativa."],
     tags: ["Sistema", "Interatividade", "Identidade Visual", "Tipografia"],
     images: [
       "Images/tese/tese2.png",
@@ -91,8 +93,8 @@ const projects = {
     title: "Design Editorial",
     date: "2023",
     client: "Laboratório Editorial",
-    description: "Criação de embalagens para linha de produtos orgânicos. O design privilegiou a sustentabilidade visual e física, com ilustrações botânicas originais e informações claras sobre os produtos. Sistema flexível aplicável a toda a linha de produtos.",
-    tags: ["Packaging", "Ilustração", "Sustentabilidade", "Produto"],
+    description: ["Alta & Baixa é uma revista de cultura tipográfica desenvolvida no contexto académico e que tem como objetivo refletir sobre todos os aspetos da tipografia, incluindo a sua história, e cujos conteúdos são deliberadamente ecléticos. Esta é uma revista que também tem uma versão interativa online."],
+    tags: ["Editorial", "Layout", "Digital", "Composição"],
     images: [
       "Images/le/le1.jpeg",
       "Images/le/le2.jpeg",
@@ -106,9 +108,9 @@ const projects = {
   project4: {
     title: "Tipografia Modular",
     date: "2023",
-    client: "Tiporafia Avançada",
-    description: "Criação de embalagens para linha de produtos orgânicos. O design privilegiou a sustentabilidade visual e física, com ilustrações botânicas originais e informações claras sobre os produtos. Sistema flexível aplicável a toda a linha de produtos.",
-    tags: ["Packaging", "Ilustração", "Sustentabilidade", "Produto"],
+    client: "Tipografia Avançada",
+    description: [""],
+    tags: ["Módulo", "Tipografia"],
     images: [
       "Images/ta/tp1.jpg",
       "Images/ta/tp2.png",
@@ -116,24 +118,24 @@ const projects = {
     ]
   },
   project5: {
-    title: "Objeto Editorial",
+    title: "Objeto Editorial + Multimédia",
     date: "2022",
-    client: "Projeto 3 - ",
-    description: "Criação de embalagens para linha de produtos orgânicos. O design privilegiou a sustentabilidade visual e física, com ilustrações botânicas originais e informações claras sobre os produtos. Sistema flexível aplicável a toda a linha de produtos.",
-    tags: ["Packaging", "Ilustração", "Sustentabilidade", "Produto"],
+    client: "Projeto 3 - Aplicações Multimédia",
+    description: [""],
+    tags: ["Editorial", "Multimédia"],
     images: [
-      "Images/p3/p31.jpg",
-      "Images/p3/p32.jpg",
-      "Images/p3/p33.jpg",
+      "Images/p3/p31.JPG",
+      "Images/p3/p32.JPG",
+      "Images/p3/p33.JPG",
       "Images/p3/p34.png"
     ]
   },
   project6: {
-    title: "Identidade Visual - Museu",
+    title: "Sistema Visual - Museu",
     date: "2021",
-    client: "Teoria do Design de Comunicação",
-    description: "Criação de embalagens para linha de produtos orgânicos. O design privilegiou a sustentabilidade visual e física, com ilustrações botânicas originais e informações claras sobre os produtos. Sistema flexível aplicável a toda a linha de produtos.",
-    tags: ["Packaging", "Ilustração", "Sustentabilidade", "Produto"],
+    client: "Teoria do Design e Comunicação",
+    description: [""],
+    tags: ["Identidade", "Padrão", "Mockups"],
     images: [
       "Images/tdc/tdc1.jpg",
       "Images/tdc/tdc2.jpg",
@@ -147,7 +149,7 @@ const projects = {
     title: "Design Editorial",
     date: "2020",
     client: "História do Design",
-    description: "Design de revista mensal com foco em arte e cultura contemporânea. Trabalho incluiu desenvolvimento de layout, seleção tipográfica, tratamento de imagens e criação de elementos gráficos personalizados para cada edição.",
+    description: [""],
     tags: ["Editorial", "Layout", "Tipografia", "Revista"],
     images: [
       "Images/hd/capa bauhaus .PNG",
