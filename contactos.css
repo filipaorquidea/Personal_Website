@@ -49,19 +49,8 @@
     position: relative;
     filter: invert(1);
     top: 25vh;
-    left: 2vw;
+    right: 3vw;
     z-index: 1;
-  }
-
-  .pinterest {
-    display: block;
-    position: absolute;
-    float: left;
-    width: 4%;
-    height: auto;
-    margin-left: 40vw;
-    margin-top: 50vh;
-    background-color: white;
   }
 
   .insta {
