@@ -47,9 +47,9 @@ function createDiv() {
 
 const projects = {
     project1: {
-    title: "Identidade Visual - Exposição",
-    date: "2024",
-    client: "Oficina de Meios Digitais",
+    title: "Sistema Interativo + Identidade Visual",
+    date: "2025",
+    client: "Dissertação de Mestrado",
     description: ["LAGEN destaca o trabalho de Daniela Haufe, uma das cofundadoras do Cyan Studio. Esta exposição faz parte de uma série do Colégio das Artes, dedicada a promover a história do design gráfico, apresentando as contribuições de designers contemporâneos e históricos.",
       "A exposição tem como objetivo explorar as camadas do trabalho de Haufe, uma técnica que ela emprega com frequência. Cada sala representa uma camada diferente do seu processo criativo, com o layout projetado para refletir esse conceito.",
       "Em algumas salas, dispositivos tecnológicos capturam momentos específicos dentro desse espaço, permitindo que os visitantes criem cartazes personalizados da sua experiência no final da exposição.",
@@ -58,13 +58,12 @@ const projects = {
       "A exposição também apresenta uma mini impressora tipográfica impressa em 3D, oferecendo uma experiência que conecta as técnicas iniciais de design gráfico com as ferramentas digitais contemporâneas, simbolizando uma jornada dos métodos tradicionais aos modernos, à medida que os visitantes levam seus cartazes personalizados para casa."],
     tags: ["Identidade Visual", "Exposição", "Tecnologia", "3D"],
     images: [
-      "Images/odm11.png",
-      "Images/odm1.png",
-      "Images/odm2.png",
-      "Images/odm4.png",
-      "Images/odm5.png",
-      "Images/odm7.png",
-      "Images/odm3.png"
+      "Images/tese2.png",
+      "Images/tese1.png",
+      "Images/tese3.png",
+      "Images/tese4.png",
+      "Images/tese5.png",
+      "Images/tese6.png"
     ]
   },
   project2: {
