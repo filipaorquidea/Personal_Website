@@ -4,7 +4,7 @@
   }
 
   html {
-    overflow-x: hidden !important;
+    overflow: hidden !important;
   }
 
   body {
@@ -31,11 +31,10 @@
   img {
     display: block;
     position: relative;
+    width: 25vw;
     top: 30vh;
-    left: 25vw;
-    border-radius: 10%;
-    border: 2px solid white;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    left: 5vw;
+    border-radius: 5%;
     cursor: none;
     user-select: none;
   }

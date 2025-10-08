@@ -1,4 +1,4 @@
-const numDivs = 5;
+const numDivs = 10;
 
 for (let i = 0; i < numDivs; i++) {
   createDraggableDiv();
