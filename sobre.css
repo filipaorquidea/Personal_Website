@@ -44,69 +44,18 @@
     background-color: black;
   }
 
-  .foto {
-    display: block;
-    position: absolute;
-    width: 40%;
-    height: auto;
-    float: left;
-    top: 20vh;
-    left: 15vw;
-    filter: saturate(0);
-  }
-
-  .texto {
+  text {
     display: block;
     position: absolute;
     font-weight: bold;
-    width: 20vw;
-    height: 40vh;
+    width: 50vw;
+    height: auto;
     float: right;
-    top: 20vh;
-    left: 60vw;
+    top: 25vh;
+    left: 25vw;
     color: black;
     padding: 2%;
-    background-color: rgba(200, 195, 195, 0.9);
-  }
-
-  .redes {
-    display: block;
-    position: relative;
-    filter: invert(1);
-    z-index: 1;
-  }
-
-  .pinterest {
-    display: block;
-    position: absolute;
-    float: left;
-    width: 5%;
-    height: auto;
-    margin-left: 40vw;
-    margin-top: 70vh;
-    background-color: white;
-  }
-
-  .insta {
-    display: block;
-    position: absolute;
-    float: right;
-    width: 4%;
-    height: auto;
-    margin-top: 71vh;
-    margin-left: 48vw;
-    background-color: white;
-  }
-
-  .linkedin {
-    display: block;
-    position: absolute;
-    float: right;
-    width: 5%;
-    height: auto;
-    margin-left: 55vw;
-    margin-top: 70vh;
-    background-color: white;
+    background-color: rgba(235, 235, 235, 0.9);
   }
 
   .name {
