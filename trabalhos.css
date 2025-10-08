@@ -6,7 +6,7 @@
      html {
          height: 100%;
          width: 100%;
-         overflow: hidden;
+         overflow-x: hidden;
      }
 
      * {
@@ -30,7 +30,7 @@
 
      .HOME {
          display: block;
-         position: fixed;
+         position: absolute;
          float: left;
          top: 5vh;
          left: 5vw;
@@ -39,7 +39,7 @@
 
      .ABOUT {
          display: block;
-         position: fixed;
+         position: absolute;
          float: left;
          top: 5vh;
          left: 10vw;
@@ -48,7 +48,7 @@
 
      .CONTACT {
          display: block;
-         position: fixed;
+         position: absolute;
          float: left;
          top: 5vh;
          left: 15vw;
@@ -72,6 +72,17 @@
          max-width: 1200px;
          margin: 0 auto;
          top: 10vh;
+     }
+
+     h1 {
+         text-align: center;
+         background-color: rgba(123, 123, 123, 0.9);
+         color: white;
+         border-radius: 10px;
+         font-size: 2.5em;
+         margin-bottom: 40px;
+         letter-spacing: 0.3vw;
+         font-family: 'Roboto', sans-serif;
      }
 
      .gallery {

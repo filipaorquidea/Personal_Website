@@ -46,8 +46,8 @@ function createDiv() {
 }
 
 const projects = {
-  project1: {
-    title: "Branding Corporativo",
+    project1: {
+    title: "Identidade Visual - Exposição",
     date: "2024",
     client: "Oficina de Meios Digitais",
     description: ["LAGEN destaca o trabalho de Daniela Haufe, uma das cofundadoras do Cyan Studio. Esta exposição faz parte de uma série do Colégio das Artes, dedicada a promover a história do design gráfico, apresentando as contribuições de designers contemporâneos e históricos.",
@@ -56,39 +56,108 @@ const projects = {
       "A tecnologia por trás dessa interação envolve etiquetas RFID que rastreiam o percurso de cada visitante pelo espaço.",
       "O cartaz final é composto usando dados de várias salas: uma cor da Sala de Cores, uma pose capturada na Sala de Movimento e um filtro visual da Sala de Sobreposição.",
       "A exposição também apresenta uma mini impressora tipográfica impressa em 3D, oferecendo uma experiência que conecta as técnicas iniciais de design gráfico com as ferramentas digitais contemporâneas, simbolizando uma jornada dos métodos tradicionais aos modernos, à medida que os visitantes levam seus cartazes personalizados para casa."],
-    tags: ["Branding", "Identidade Visual", "Logótipo", "Guidelines"],
+    tags: ["Identidade Visual", "Exposição", "Tecnologia", "3D"],
     images: [
-      "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800",
-      "https://images.unsplash.com/photo-1634942537034-2531766767d1?w=800",
-      "https://images.unsplash.com/photo-1609921212029-bb5a28e60960?w=800"
+      "Images/odm11.png",
+      "Images/odm1.png",
+      "Images/odm2.png",
+      "Images/odm4.png",
+      "Images/odm5.png",
+      "Images/odm7.png",
+      "Images/odm3.png"
     ]
   },
   project2: {
+    title: "Identidade Visual - Exposição",
+    date: "2024",
+    client: "Oficina de Meios Digitais",
+    description: ["LAGEN destaca o trabalho de Daniela Haufe, uma das cofundadoras do Cyan Studio. Esta exposição faz parte de uma série do Colégio das Artes, dedicada a promover a história do design gráfico, apresentando as contribuições de designers contemporâneos e históricos.",
+      "A exposição tem como objetivo explorar as camadas do trabalho de Haufe, uma técnica que ela emprega com frequência. Cada sala representa uma camada diferente do seu processo criativo, com o layout projetado para refletir esse conceito.",
+      "Em algumas salas, dispositivos tecnológicos capturam momentos específicos dentro desse espaço, permitindo que os visitantes criem cartazes personalizados da sua experiência no final da exposição.",
+      "A tecnologia por trás dessa interação envolve etiquetas RFID que rastreiam o percurso de cada visitante pelo espaço.",
+      "O cartaz final é composto usando dados de várias salas: uma cor da Sala de Cores, uma pose capturada na Sala de Movimento e um filtro visual da Sala de Sobreposição.",
+      "A exposição também apresenta uma mini impressora tipográfica impressa em 3D, oferecendo uma experiência que conecta as técnicas iniciais de design gráfico com as ferramentas digitais contemporâneas, simbolizando uma jornada dos métodos tradicionais aos modernos, à medida que os visitantes levam seus cartazes personalizados para casa."],
+    tags: ["Identidade Visual", "Exposição", "Tecnologia", "3D"],
+    images: [
+      "Images/odm11.png",
+      "Images/odm1.png",
+      "Images/odm2.png",
+      "Images/odm4.png",
+      "Images/odm5.png",
+      "Images/odm7.png",
+      "Images/odm3.png"
+    ]
+  },
+  project3: {
+    title: "Design Editorial",
+    date: "2023",
+    client: "Laboratório Editorial",
+    description: "Criação de embalagens para linha de produtos orgânicos. O design privilegiou a sustentabilidade visual e física, com ilustrações botânicas originais e informações claras sobre os produtos. Sistema flexível aplicável a toda a linha de produtos.",
+    tags: ["Packaging", "Ilustração", "Sustentabilidade", "Produto"],
+    images: [
+      "Images/le1.jpeg",
+      "Images/le2.jpeg",
+      "Images/le3.jpeg",
+      "Images/le4.png",
+      "Images/le5.png",
+      "Images/le6.png",
+      "Images/le7.png"
+    ]
+  },
+    project4: {
+    title: "Tipografia Modular",
+    date: "2023",
+    client: "Tiporafia Avançada",
+    description: "Criação de embalagens para linha de produtos orgânicos. O design privilegiou a sustentabilidade visual e física, com ilustrações botânicas originais e informações claras sobre os produtos. Sistema flexível aplicável a toda a linha de produtos.",
+    tags: ["Packaging", "Ilustração", "Sustentabilidade", "Produto"],
+    images: [
+      "Images/tp1.jpg",
+      "Images/tp2.png",
+      "Images/tp3.jpg"
+    ]
+  },
+    project5: {
+    title: "Objeto Editorial",
+    date: "2022",
+    client: "Projeto 3 - ",
+    description: "Criação de embalagens para linha de produtos orgânicos. O design privilegiou a sustentabilidade visual e física, com ilustrações botânicas originais e informações claras sobre os produtos. Sistema flexível aplicável a toda a linha de produtos.",
+    tags: ["Packaging", "Ilustração", "Sustentabilidade", "Produto"],
+    images: [
+      "Images/p31.jpg",
+      "Images/p32.jpg",
+      "Images/p33.jpg",
+      "Images/p34.png"
+    ]
+  },
+  project6: {
+    title: "Identidade Visual - Museu",
+    date: "2021",
+    client: "Teoria do Design de Comunicação",
+    description: "Criação de embalagens para linha de produtos orgânicos. O design privilegiou a sustentabilidade visual e física, com ilustrações botânicas originais e informações claras sobre os produtos. Sistema flexível aplicável a toda a linha de produtos.",
+    tags: ["Packaging", "Ilustração", "Sustentabilidade", "Produto"],
+    images: [
+      "Images/tdc1.jpg",
+      "Images/tdc2.jpg",
+      "Images/tdc3.jpg",
+      "Images/tdc4.jpg",
+      "Images/tdc5.jpg",
+      "Images/tdc6.png"
+    ]
+  },
+  project7: {
     title: "Design Editorial",
     date: "2020",
     client: "História do Design",
     description: "Design de revista mensal com foco em arte e cultura contemporânea. Trabalho incluiu desenvolvimento de layout, seleção tipográfica, tratamento de imagens e criação de elementos gráficos personalizados para cada edição.",
     tags: ["Editorial", "Layout", "Tipografia", "Revista"],
     images: [
+      "Images/capa bauhaus .PNG",
       "Images/revista.png",
-      "Images/",
-      "https://images.unsplash.com/photo-1609921212029-bb5a28e60960?w=800"
-    ]
-  },
-  project3: {
-    title: "Web Design",
-    date: "2021",
-    client: "",
-    description: "Criação de embalagens para linha de produtos orgânicos. O design privilegiou a sustentabilidade visual e física, com ilustrações botânicas originais e informações claras sobre os produtos. Sistema flexível aplicável a toda a linha de produtos.",
-    tags: ["Packaging", "Ilustração", "Sustentabilidade", "Produto"],
-    images: [
-      "https://images.unsplash.com/photo-1609921212029-bb5a28e60960?w=800",
-      "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800",
-      "https://images.unsplash.com/photo-1634942537034-2531766767d1?w=800"
+      "Images/revista2.png",
+      "Images/revista3.png"
     ]
   }
 };
-
 
 
 function openModal(projectId) {
