@@ -49,8 +49,13 @@ const projects = {
   project1: {
     title: "Branding Corporativo",
     date: "2024",
-    client: "Tech Solutions",
-    description: "Desenvolvimento completo de identidade visual para empresa de tecnologia, incluindo logótipo, paleta de cores, tipografia e guidelines de aplicação. O projeto visou criar uma imagem moderna e profissional que transmitisse inovação e confiança.",
+    client: "Oficina de Meios Digitais",
+    description: ["LAGEN destaca o trabalho de Daniela Haufe, uma das cofundadoras do Cyan Studio. Esta exposição faz parte de uma série do Colégio das Artes, dedicada a promover a história do design gráfico, apresentando as contribuições de designers contemporâneos e históricos.",
+      "A exposição tem como objetivo explorar as camadas do trabalho de Haufe, uma técnica que ela emprega com frequência. Cada sala representa uma camada diferente do seu processo criativo, com o layout projetado para refletir esse conceito.",
+      "Em algumas salas, dispositivos tecnológicos capturam momentos específicos dentro desse espaço, permitindo que os visitantes criem cartazes personalizados da sua experiência no final da exposição.",
+      "A tecnologia por trás dessa interação envolve etiquetas RFID que rastreiam o percurso de cada visitante pelo espaço.",
+      "O cartaz final é composto usando dados de várias salas: uma cor da Sala de Cores, uma pose capturada na Sala de Movimento e um filtro visual da Sala de Sobreposição.",
+      "A exposição também apresenta uma mini impressora tipográfica impressa em 3D, oferecendo uma experiência que conecta as técnicas iniciais de design gráfico com as ferramentas digitais contemporâneas, simbolizando uma jornada dos métodos tradicionais aos modernos, à medida que os visitantes levam seus cartazes personalizados para casa."],
     tags: ["Branding", "Identidade Visual", "Logótipo", "Guidelines"],
     images: [
       "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800",
@@ -66,7 +71,7 @@ const projects = {
     tags: ["Editorial", "Layout", "Tipografia", "Revista"],
     images: [
       "Images/revista.png",
-      "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800",
+      "Images/",
       "https://images.unsplash.com/photo-1609921212029-bb5a28e60960?w=800"
     ]
   },
