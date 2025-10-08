@@ -24,6 +24,8 @@ function createDiv() {
     offsetX = e.clientX - work.getBoundingClientRect().left;
     offsetY = e.clientY - work.getBoundingClientRect().top;
     work.style.cursor = 'grabbing';
+    document.body.style.setProperty("user-select", "none");
+    document.body.style.setProperty("-webkit-user-select", "none"); // Safari fix
   });
 
   document.addEventListener('mousemove', (e) => {
@@ -39,6 +41,9 @@ function createDiv() {
   document.addEventListener('mouseup', () => {
     isDragging = false;
     work.style.cursor = 'grab';
+    document.body.style.removeProperty("user-select");
+    document.body.style.removeProperty("-webkit-user-select");
+
   });
 
   document.body.appendChild(work);
@@ -46,7 +51,7 @@ function createDiv() {
 }
 
 const projects = {
-    project1: {
+  project1: {
     title: "Sistema Interativo + Identidade Visual",
     date: "2025",
     client: "Dissertação de Mestrado",
@@ -98,7 +103,7 @@ const projects = {
       "Images/le/le7.png"
     ]
   },
-    project4: {
+  project4: {
     title: "Tipografia Modular",
     date: "2023",
     client: "Tiporafia Avançada",
@@ -110,7 +115,7 @@ const projects = {
       "Images/ta/tp3.jpg"
     ]
   },
-    project5: {
+  project5: {
     title: "Objeto Editorial",
     date: "2022",
     client: "Projeto 3 - ",

@@ -95,6 +95,7 @@
     user-select: none;
     mix-blend-mode: difference;
     font-family: 'Personalized', sans-serif;
+    opacity: 0.7;
   }
 
   .contact-form {
@@ -102,7 +103,7 @@
     position: relative;
     flex-direction: column;
     align-items: center;
-    color: white;
+    color: rgb(0, 0, 0);
     width: 50vw;
     height: 50vh;
     top: 15vh;
@@ -114,8 +115,8 @@
   input,
   textarea {
     background: transparent;
-    border: 1px solid white;
-    color: white;
+    border: 2px solid black;
+    color: black;
     padding: 0.75rem 1rem;
     width: 20vw;
     margin-bottom: 1rem;
@@ -135,6 +136,10 @@
     min-height: 15vh;
     top: 10vh;
     left: 10vw;
+  }
+
+  ::placeholder {
+    color: black;
   }
 
   input:focus,

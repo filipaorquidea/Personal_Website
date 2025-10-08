@@ -3,6 +3,7 @@
     src: url('data/Vector_O.otf') format('opentype');
   }
 
+
   html {
     width: 100%;
     overflow: hidden;
@@ -62,10 +63,10 @@
   .name {
     position: absolute;
     font-size: 10vw;
-    cursor: grab;
     z-index: -1;
     -webkit-user-select: none;
     user-select: none;
     mix-blend-mode: difference;
     font-family: 'Personalized', sans-serif;
+    opacity: 0.7;
   }

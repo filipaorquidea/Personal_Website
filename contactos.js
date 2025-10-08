@@ -23,6 +23,8 @@ function createDiv() {
     offsetX = e.clientX - name.getBoundingClientRect().left;
     offsetY = e.clientY - name.getBoundingClientRect().top;
     name.style.cursor = 'grabbing';
+    document.body.style.setProperty("user-select", "none");
+    document.body.style.setProperty("-webkit-user-select", "none"); // Safari fix
   });
 
   document.addEventListener('mousemove', (e) => {
@@ -38,6 +40,9 @@ function createDiv() {
   document.addEventListener('mouseup', () => {
     isDragging = false;
     name.style.cursor = 'grab';
+    document.body.style.removeProperty("user-select");
+    document.body.style.removeProperty("-webkit-user-select");
+
   });
 
   document.body.appendChild(name);
