@@ -50,20 +50,15 @@ const projects = {
     title: "Sistema Interativo + Identidade Visual",
     date: "2025",
     client: "Dissertação de Mestrado",
-    description: ["LAGEN destaca o trabalho de Daniela Haufe, uma das cofundadoras do Cyan Studio. Esta exposição faz parte de uma série do Colégio das Artes, dedicada a promover a história do design gráfico, apresentando as contribuições de designers contemporâneos e históricos.",
-      "A exposição tem como objetivo explorar as camadas do trabalho de Haufe, uma técnica que ela emprega com frequência. Cada sala representa uma camada diferente do seu processo criativo, com o layout projetado para refletir esse conceito.",
-      "Em algumas salas, dispositivos tecnológicos capturam momentos específicos dentro desse espaço, permitindo que os visitantes criem cartazes personalizados da sua experiência no final da exposição.",
-      "A tecnologia por trás dessa interação envolve etiquetas RFID que rastreiam o percurso de cada visitante pelo espaço.",
-      "O cartaz final é composto usando dados de várias salas: uma cor da Sala de Cores, uma pose capturada na Sala de Movimento e um filtro visual da Sala de Sobreposição.",
-      "A exposição também apresenta uma mini impressora tipográfica impressa em 3D, oferecendo uma experiência que conecta as técnicas iniciais de design gráfico com as ferramentas digitais contemporâneas, simbolizando uma jornada dos métodos tradicionais aos modernos, à medida que os visitantes levam seus cartazes personalizados para casa."],
-    tags: ["Identidade Visual", "Exposição", "Tecnologia", "3D"],
+    description: [""],
+    tags: ["Sistema", "Interatividade", "Identidade Visual", "Tipografia"],
     images: [
-      "Images/tese2.png",
-      "Images/tese1.png",
-      "Images/tese3.png",
-      "Images/tese4.png",
-      "Images/tese5.png",
-      "Images/tese6.png"
+      "Images/tese/tese2.png",
+      "Images/tese/tese1.png",
+      "Images/tese/tese3.png",
+      "Images/tese/tese4.png",
+      "Images/tese/tese5.png",
+      "Images/tese/tese6.png"
     ]
   },
   project2: {
@@ -78,13 +73,13 @@ const projects = {
       "A exposição também apresenta uma mini impressora tipográfica impressa em 3D, oferecendo uma experiência que conecta as técnicas iniciais de design gráfico com as ferramentas digitais contemporâneas, simbolizando uma jornada dos métodos tradicionais aos modernos, à medida que os visitantes levam seus cartazes personalizados para casa."],
     tags: ["Identidade Visual", "Exposição", "Tecnologia", "3D"],
     images: [
-      "Images/odm11.png",
-      "Images/odm1.png",
-      "Images/odm2.png",
-      "Images/odm4.png",
-      "Images/odm5.png",
-      "Images/odm7.png",
-      "Images/odm3.png"
+      "Images/odm/odm11.png",
+      "Images/odm/odm1.png",
+      "Images/odm/odm2.png",
+      "Images/odm/odm4.png",
+      "Images/odm/odm5.png",
+      "Images/odm/odm7.png",
+      "Images/odm/odm3.png"
     ]
   },
   project3: {
@@ -94,13 +89,13 @@ const projects = {
     description: "Criação de embalagens para linha de produtos orgânicos. O design privilegiou a sustentabilidade visual e física, com ilustrações botânicas originais e informações claras sobre os produtos. Sistema flexível aplicável a toda a linha de produtos.",
     tags: ["Packaging", "Ilustração", "Sustentabilidade", "Produto"],
     images: [
-      "Images/le1.jpeg",
-      "Images/le2.jpeg",
-      "Images/le3.jpeg",
-      "Images/le4.png",
-      "Images/le5.png",
-      "Images/le6.png",
-      "Images/le7.png"
+      "Images/le/le1.jpeg",
+      "Images/le/le2.jpeg",
+      "Images/le/le3.jpeg",
+      "Images/le/le4.png",
+      "Images/le/le5.png",
+      "Images/le/le6.png",
+      "Images/le/le7.png"
     ]
   },
     project4: {
@@ -110,9 +105,9 @@ const projects = {
     description: "Criação de embalagens para linha de produtos orgânicos. O design privilegiou a sustentabilidade visual e física, com ilustrações botânicas originais e informações claras sobre os produtos. Sistema flexível aplicável a toda a linha de produtos.",
     tags: ["Packaging", "Ilustração", "Sustentabilidade", "Produto"],
     images: [
-      "Images/tp1.jpg",
-      "Images/tp2.png",
-      "Images/tp3.jpg"
+      "Images/ta/tp1.jpg",
+      "Images/ta/tp2.png",
+      "Images/ta/tp3.jpg"
     ]
   },
     project5: {
@@ -122,10 +117,10 @@ const projects = {
     description: "Criação de embalagens para linha de produtos orgânicos. O design privilegiou a sustentabilidade visual e física, com ilustrações botânicas originais e informações claras sobre os produtos. Sistema flexível aplicável a toda a linha de produtos.",
     tags: ["Packaging", "Ilustração", "Sustentabilidade", "Produto"],
     images: [
-      "Images/p31.jpg",
-      "Images/p32.jpg",
-      "Images/p33.jpg",
-      "Images/p34.png"
+      "Images/p3/p31.jpg",
+      "Images/p3/p32.jpg",
+      "Images/p3/p33.jpg",
+      "Images/p3/p34.png"
     ]
   },
   project6: {
@@ -135,12 +130,12 @@ const projects = {
     description: "Criação de embalagens para linha de produtos orgânicos. O design privilegiou a sustentabilidade visual e física, com ilustrações botânicas originais e informações claras sobre os produtos. Sistema flexível aplicável a toda a linha de produtos.",
     tags: ["Packaging", "Ilustração", "Sustentabilidade", "Produto"],
     images: [
-      "Images/tdc1.jpg",
-      "Images/tdc2.jpg",
-      "Images/tdc3.jpg",
-      "Images/tdc4.jpg",
-      "Images/tdc5.jpg",
-      "Images/tdc6.png"
+      "Images/tdc/tdc1.jpg",
+      "Images/tdc/tdc2.jpg",
+      "Images/tdc/tdc3.jpg",
+      "Images/tdc/tdc4.jpg",
+      "Images/tdc/tdc5.jpg",
+      "Images/tdc/tdc6.png"
     ]
   },
   project7: {
@@ -150,10 +145,10 @@ const projects = {
     description: "Design de revista mensal com foco em arte e cultura contemporânea. Trabalho incluiu desenvolvimento de layout, seleção tipográfica, tratamento de imagens e criação de elementos gráficos personalizados para cada edição.",
     tags: ["Editorial", "Layout", "Tipografia", "Revista"],
     images: [
-      "Images/capa bauhaus .PNG",
-      "Images/revista.png",
-      "Images/revista2.png",
-      "Images/revista3.png"
+      "Images/hd/capa bauhaus .PNG",
+      "Images/hd/revista.png",
+      "Images/hd/revista2.png",
+      "Images/hd/revista3.png"
     ]
   }
 };
