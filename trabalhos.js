@@ -56,8 +56,8 @@ const projects = {
     date: "2025",
     client: "Dissertação de Mestrado",
     description: ["Do Som à Forma - Um sistema interdisciplinar para a Criação Tipográfica através da Análise de Som, é um projeto que explora a interseção entre som, tecnologia e design tipográfico. O sistema desenvolvido apresenta formas tipográficas dinâmicas e interativas, baseadas em dados sonoros.",
-      "O projeto utiliza sensores para capturar dados de som e movimento, que são então processados para gerar formas tipográficas únicas. Através de uma interface interativa, os users podem manipular esses dados em tempo real, criando uma experiência imersiva que combina arte, tecnologia e design.",
-      "A identidade visual do festival de música reflete essa interdisciplinaridade, incorporando elementos gráficos que evocam tanto a fluidez do som quanto a estrutura das formas tipográficas. O resultado é um sistema inovador que desafia as convenções tradicionais do design tipográfico, oferecendo novas possibilidades para a expressão criativa."],
+                  "O projeto utiliza sensores para capturar dados de som e movimento, que são então processados para gerar formas tipográficas únicas. Através de uma interface interativa, os users podem manipular esses dados em tempo real, criando uma experiência imersiva que combina arte, tecnologia e design.",
+                  "A identidade visual do festival de música reflete essa interdisciplinaridade, incorporando elementos gráficos que evocam tanto a fluidez do som quanto a estrutura das formas tipográficas. O resultado é um sistema inovador que desafia as convenções tradicionais do design tipográfico, oferecendo novas possibilidades para a expressão criativa."],
     tags: ["Sistema", "Interatividade", "Identidade Visual", "Tipografia"],
     images: [
       "Images/tese/tese2.png",
@@ -93,7 +93,8 @@ const projects = {
     title: "Design Editorial",
     date: "2023",
     client: "Laboratório Editorial",
-    description: ["Alta & Baixa é uma revista de cultura tipográfica desenvolvida no contexto académico e que tem como objetivo refletir sobre todos os aspetos da tipografia, incluindo a sua história, e cujos conteúdos são deliberadamente ecléticos. Esta é uma revista que também tem uma versão interativa online."],
+    description: ["Alta & Baixa é uma revista de cultura tipográfica desenvolvida no contexto académico e que tem como objetivo refletir sobre todos os aspetos da tipografia, incluindo a sua história, e cujos conteúdos são deliberadamente ecléticos. Esta é uma revista que também tem uma versão interativa online.",
+                  "Para o desenvolvimento deste projeto contribuí na criação de layout, revisão de paginação e desenvolvimento do website."],
     tags: ["Editorial", "Layout", "Digital", "Composição"],
     images: [
       "Images/le/le1.jpeg",
@@ -109,7 +110,8 @@ const projects = {
     title: "Tipografia Modular",
     date: "2023",
     client: "Tipografia Avançada",
-    description: [""],
+    description: ["Neste projeto fomos desafiados a criar um sistema tipográfico modular, explorando a construção de letras a partir de pedaços de letras que se encontravam nas ruas de Coimbra.",
+                  "O resultado é um conjunto de tipos modulares que podem ser combinados de várias formas, permitindo uma grande flexibilidade na composição tipográfica."],
     tags: ["Módulo", "Tipografia"],
     images: [
       "Images/ta/tp1.jpg",
@@ -121,7 +123,11 @@ const projects = {
     title: "Objeto Editorial + Multimédia",
     date: "2022",
     client: "Projeto 3 - Aplicações Multimédia",
-    description: [""],
+    description: ["Fomos desafiados a criar um objeto editorial através de um livro fornecido no catálogo definido. Pegamos assim no Guia da Elegância que fala de moda e regras de etiqueta para mulheres.",
+                  "A partir daqui criámos então como capa uma boneca de vestir, onde a pessoa era desafiada a cortar as roupas da capa e vestir a boneca como assim desejar e no seu interior era onde estava o contéudo do livro.",
+                  "Posto isto, passamos então ao objeto multimédia onde criámos um canal de youtube com a dicas de moda e etiqueta que estavam no livro, mas de uma forma mais divertida.",
+                  "Para este projeto contribuí para a paginação do objeto editorial e para a criação e edição dos vídeos do canal de youtube."
+    ],
     tags: ["Editorial", "Multimédia"],
     images: [
       "Images/p3/p31.JPG",
@@ -134,7 +140,9 @@ const projects = {
     title: "Sistema Visual - Museu",
     date: "2021",
     client: "Teoria do Design e Comunicação",
-    description: [""],
+    description: ["Neste projeto, fomos desafiados a escolher um museu e uma das suas obras onde retirassemos um elemmento da imagem para criar um sistema visual completo, que incluía logotipo, paleta de cores, tipografia e aplicações diversas.",
+                  "O museu escolhido foi o Centro de Arte Contemporânea de Coimbra e foi escolhida uma obra de Henry Taylor, um artista americano que se destaca pelo uso de cores vibrantes, representação de figuras humanas com traços expressivos e uma narrativa visual que combina",
+                  "elementos do cotidiano com comentário social."],
     tags: ["Identidade", "Padrão", "Mockups"],
     images: [
       "Images/tdc/tdc1.jpg",
@@ -149,7 +157,8 @@ const projects = {
     title: "Design Editorial",
     date: "2020",
     client: "História do Design",
-    description: [""],
+    description: ["Desenvolvimento de uma revista sobre a Bauhaus, explorando os seus princípios de design, tipografia e layout.",
+                  "O meu maior contributo para este projeto foi a criação completa da revista, desde a conceção do layout até à escolha tipográfica e composição."],
     tags: ["Editorial", "Layout", "Tipografia", "Revista"],
     images: [
       "Images/hd/capa bauhaus .PNG",

@@ -171,25 +171,29 @@
 
      .close-btn {
          position: absolute;
-         top: 20px;
-         right: 20px;
-         font-size: 35px;
+         top: 2vh;
+         font-size: 2rem;
+         float: right;
+         right: 0.5vw;
          color: #333;
          cursor: pointer;
          background: white;
-         width: 45px;
-         height: 45px;
+         width: 3vw;
+         height: 3vw;
          border-radius: 50%;
          display: flex;
          align-items: center;
          justify-content: center;
          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
          z-index: 10;
-         transition: transform 0.2s ease;
+         transition: transform  0.2s ease;
      }
 
      .close-btn:hover {
-         transform: rotate(90deg);
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        transform: rotate(90deg);
      }
 
      .modal-images {
