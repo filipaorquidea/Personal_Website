@@ -32,7 +32,7 @@
     position: absolute;
     float: left;
     top: 5vh;
-    left: 10vw;
+    left: 9vw;
   }
 
   .CONTACT {
@@ -40,22 +40,23 @@
     position: fixed;
     float: left;
     top: 5vh;
-    left: 15vw;
+    left: 14vw;
     background-color: black;
   }
 
   text {
     display: block;
     position: absolute;
-    font-weight: bold;
+    font-weight: lighter;
     width: 50vw;
     height: auto;
     float: right;
-    top: 25vh;
+    top: 15vh;
     left: 25vw;
     color: black;
     padding: 2%;
     background-color: rgba(235, 235, 235, 0.9);
+    cursor: none;
   }
 
   .name {

@@ -42,8 +42,9 @@
 
   .ABOUT {
     display: block;
-    position: fixed;
+    position: absolute;
     float: left;
+    width: 5vw;
     top: 5vh;
     left: 5vw;
     background-color: black;
@@ -51,18 +52,18 @@
 
   .WORK {
     display: block;
-    position: fixed;
+    position: absolute;
     top: 5vh;
-    left: 10vw;
+    left: 11vw;
     background-color: black;
   }
 
   .CONTACT {
     display: block;
-    position: fixed;
+    position: absolute;
     float: left;
     top: 5vh;
-    left: 15vw;
+    left: 16vw;
     background-color: black;
   }
 
